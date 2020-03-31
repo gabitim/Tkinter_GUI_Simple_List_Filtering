@@ -1,9 +1,13 @@
 import tkinter as tk
 
+global_expres_test = ""
+
 def save_input():
+    global global_expres_test
+
     input_value = array_list_entry.get("1.0", "end-1c")
 
-    print(input_value)
+    global_expres_test += input_value
 
 def print_result(var):
     result_field.set(var)
@@ -49,7 +53,7 @@ if __name__ == "__main__":
 
     # the filter odd button
     Button_FilterOdd = tk.Button(window, text="Filter Odd", bg='gray', height=1, width=10,
-                                 command=lambda: print_result('bbb'))
+                                 command=lambda: print_result(global_expres_test))
     Button_FilterOdd.place(x=550, y=50)
 
     # the filter Primes button
