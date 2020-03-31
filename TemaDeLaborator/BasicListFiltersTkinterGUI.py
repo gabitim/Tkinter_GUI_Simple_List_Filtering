@@ -1,10 +1,15 @@
 import tkinter as tk
 
+def save_input():
+    input_value = array_list_entry.get("1.0", "end-1c")
+
+    print(input_value)
 
 def print_result(var):
     result_field.set(var)
 
 
+# noinspection PyInterpreter
 if __name__ == "__main__":
     # create a GUI window
     window = tk.Tk()
@@ -25,10 +30,10 @@ if __name__ == "__main__":
     canvas.itemconfig(label, text="List of Integers")
 
     # the entry field
-    array_list = tk.StringVar()
-    array_list.set('')
-    array_list_entry = tk.Entry(window, textvariable=array_list)
-    array_list_entry.pack(ipadx=140, pady=5)
+    # array_list = tk.StringVar()
+    # array_list.set('')
+    array_list_entry = tk.Text(window, height = 1, width=50)
+    array_list_entry.pack(pady=5)
 
     # the result field
     result_field = tk.StringVar()
@@ -39,7 +44,7 @@ if __name__ == "__main__":
 
     # the add list button
     Button_addList = tk.Button(window, text="Add list", bg='gray', height=1, width=7,
-                               command=lambda: print_result('aaaa'))
+                               command=lambda: save_input())
     Button_addList.place(x=550, y=5)
 
     # the filter odd button

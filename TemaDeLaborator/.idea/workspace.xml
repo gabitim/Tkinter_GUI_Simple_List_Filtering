@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a76fe78c-0a34-44b8-b21c-e6d1989f6c26" name="Default Changelist" comment="" />
+    <list default="true" id="a76fe78c-0a34-44b8-b21c-e6d1989f6c26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TemaDeLaborator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TemaDeLaborator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZornUyApWifhFFiuQQ1fADWOEw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.BasicListFiltersTkinterGUI">
     <configuration name="BasicListFiltersTkinterGUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -32,9 +43,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\facultate\AN 2 SEM 2\PP\Lab6\oop_python\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" />
@@ -88,26 +99,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="507" y="26" key="#BasicListFiltersTkinterGUI" timestamp="1585688539546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="26" key="#BasicListFiltersTkinterGUI/0.0.1536.824@0.0.1536.824" timestamp="1585688539546" />
     <state x="0" y="73" key="#Plugins" timestamp="1585516788242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="73" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1585516788242" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1585687632829">
+    <state width="722" height="210" key="GridCell.Tab.0.bottom" timestamp="1585689859187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585687632829" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1585687632829">
+    <state width="722" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585689859187" />
+    <state width="722" height="210" key="GridCell.Tab.0.center" timestamp="1585689859187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585687632829" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1585687632828">
+    <state width="722" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585689859187" />
+    <state width="722" height="210" key="GridCell.Tab.0.left" timestamp="1585689859187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585687632828" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1585687632829">
+    <state width="722" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585689859187" />
+    <state width="722" height="210" key="GridCell.Tab.0.right" timestamp="1585689859187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585687632829" />
+    <state width="722" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585689859187" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1585687632824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -124,6 +139,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585687632824" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1585688603774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585688603774" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585688456449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585688456449" />
     <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585517974982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
