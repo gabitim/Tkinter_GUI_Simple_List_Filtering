@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a76fe78c-0a34-44b8-b21c-e6d1989f6c26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Exemplul1_Cozi_Mesaje" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TemaDeLaborator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\facultate\AN 2 SEM 2\PP\Lab6\oop_python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Exemple" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Exemple/Exemplul1_Cozi_Mesaje.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TemaDeLaborator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +99,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.BasicListFiltersTkinterGUI" />
+        <item itemvalue="Python.Exemplul1_Cozi_Mesaje" />
         <item itemvalue="Python.calculator" />
       </list>
     </recent_temporary>
@@ -99,8 +122,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585689951903</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="can a save input from entry field &#10;and print it in the result field&#10;&#10;yeyyy. Lots of work ahead. &#10;Git rocks">
+      <created>1585690513005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585690513005</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -115,37 +155,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="can a save input from entry field &#10;and print it in console" />
-    <option name="LAST_COMMIT_MESSAGE" value="can a save input from entry field &#10;and print it in console" />
+    <MESSAGE value="can a save input from entry field &#10;and print it in the result field&#10;&#10;yeyyy. Lots of work ahead. &#10;Git rocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="can a save input from entry field &#10;and print it in the result field&#10;&#10;yeyyy. Lots of work ahead. &#10;Git rocks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="26" key="#BasicListFiltersTkinterGUI" timestamp="1585688539546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="507" y="26" key="#BasicListFiltersTkinterGUI/0.0.1536.824@0.0.1536.824" timestamp="1585688539546" />
+    <state x="507" y="26" key="#Exemplul1_Cozi_Mesaje" timestamp="1585747895457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="26" key="#Exemplul1_Cozi_Mesaje/0.0.1536.824@0.0.1536.824" timestamp="1585747895457" />
     <state x="0" y="73" key="#Plugins" timestamp="1585516788242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="73" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1585516788242" />
-    <state x="650" y="13" key="CommitChangelistDialog2" timestamp="1585689950957">
+    <state x="650" y="0" key="CommitChangelistDialog2" timestamp="1585690511675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="650" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585689950957" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1585690417441">
+    <state x="650" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585690511675" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1585753825812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585690417441" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1585690417441">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585753825812" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1585753825812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585690417441" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1585690417441">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585753825812" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1585753825811">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585690417441" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1585690417441">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585753825811" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1585753825812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585690417441" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585753825812" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1585687632824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -170,9 +215,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585688456449" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585517974982">
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585747170563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585517974982" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585747170563" />
   </component>
 </project>
