@@ -1,6 +1,5 @@
 import tkinter as tk
 from multiprocessing import Process, Queue
-from collections import deque
 
 
 # function witch selects the respective process
@@ -8,23 +7,32 @@ from collections import deque
 def select_option(select):
     if select == 0:
         process0.start()
+        process0.join()
     elif select == 1:
         process1.start()
+        process1.join()
     elif select == 2:
         process2.start()
+        process2.join()
 
     print_result()
 
-# filter odd process (test)
+# filter odd process
 def filter_odd(list_queue):
     if not list_queue.empty():
         my_list = list_queue.get()
-        odd_numbers_list = filter(lambda it: it % 2 , my_list)
-        print(list(odd_numbers_list))
+
+        filtered_list = filter(lambda it: it % 2 , my_list)
+
+        odd_numbers_list = list(filtered_list)
+        print(odd_numbers_list)
+
+        list_queue.put(odd_numbers_list)
+
     else:
         print("INSERT NUMBERS")
 
-# filter primes process (test)
+# filter primes process
 def filter_primes(list_queue):
     if not list_queue.empty():
         my_list = list_queue.get()
@@ -50,10 +58,11 @@ def filter_primes(list_queue):
 
         print(prime_numbers_list)
 
+        list_queue.put(prime_numbers_list)
     else:
         print("INSERT NUMBERS")
 
-# sum numbers process (test)
+# sum numbers process
 def sum_numbers(list_queue):
     if not list_queue.empty():
         my_list = list_queue.get()
@@ -62,9 +71,18 @@ def sum_numbers(list_queue):
             sum += elem
 
         print(sum)
+        list_queue.put(sum)
+
     else:
         print("INSERT NUMBERS")
 
+# function which prints in result field
+def print_result():
+    if not list_queue.empty():
+        result = list_queue.get()
+        result_field.set(result)
+    else:
+        result_field.set('INSERT NUMBERS')
 
 # the message queue used for sending the lists
 list_queue = Queue()
@@ -73,14 +91,13 @@ list_queue = Queue()
 process0 = Process(target=filter_odd, args=(list_queue,))
 process1 = Process(target=filter_primes, args=(list_queue,))
 process2 = Process(target=sum_numbers, args=(list_queue,))
+# process_write = Process(target=print_result, args=(list_queue,))
+
 
 # function to save input and transforms the input into a list
 def save_input():
     # input value a string with the entry
     input_value = array_list_entry.get("1.0", "end-1c")
-
-    #clear the entry box
-    array_list_entry.delete('1.0',tk.END)
 
     # list with numbers after split
     list = input_value.split(',')
@@ -89,18 +106,13 @@ def save_input():
     int_list = []
 
     # converting to int
-
     for number in list:
         int_list.append(int(number))
 
-    print(int_list)
+    # print(int_list)
 
     list_queue.put(int_list)
 
-
-# function which prints in result field
-def print_result():
-    result_field.set(result)
 
 # noinspection PyInterpreter
 if __name__ == "__main__":
