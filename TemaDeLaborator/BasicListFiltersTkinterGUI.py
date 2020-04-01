@@ -1,13 +1,21 @@
 import tkinter as tk
 from multiprocessing import Process, Queue
 
+# the message queue used for sending the lists
+list_queue = Queue()
 
 # function witch selects the respective process
-# and calls the printing function(the printing in the result box doesnt work right now)
+# and calls the printing function
 def select_option(select):
+
+    # declaring the processes
+    process0 = Process(target=filter_odd, args=(list_queue,))
+    process1 = Process(target=filter_primes, args=(list_queue,))
+    process2 = Process(target=sum_numbers, args=(list_queue,))
+
     if select == 0:
-        process0.start()
-        process0.join()
+        process0.start()  # starts the process (calls the function)
+        process0.join()  # join the process( blocks the calling function until the process exit ! NOT finished) (still researching about behavior)
     elif select == 1:
         process1.start()
         process1.join()
@@ -17,17 +25,21 @@ def select_option(select):
 
     print_result()
 
+
 # filter odd process
 def filter_odd(list_queue):
     if not list_queue.empty():
+        # the entered list
         my_list = list_queue.get()
 
         filtered_list = filter(lambda it: it % 2 , my_list)
 
+        # the final list
         odd_numbers_list = list(filtered_list)
-        print(odd_numbers_list)
+        print(odd_numbers_list) # prints to console
 
-        list_queue.put(odd_numbers_list)
+        list_queue.put(odd_numbers_list) # puts the new list in the queue; right after this printing is called
+                                        # outside of the function
 
     else:
         print("INSERT NUMBERS")
@@ -82,22 +94,14 @@ def print_result():
         result = list_queue.get()
         result_field.set(result)
     else:
-        result_field.set('INSERT NUMBERS')
-
-# the message queue used for sending the lists
-list_queue = Queue()
-
-# declaring the processes
-process0 = Process(target=filter_odd, args=(list_queue,))
-process1 = Process(target=filter_primes, args=(list_queue,))
-process2 = Process(target=sum_numbers, args=(list_queue,))
-# process_write = Process(target=print_result, args=(list_queue,))
-
+        result_field.set('Press Add List Button')
 
 # function to save input and transforms the input into a list
 def save_input():
     # input value a string with the entry
     input_value = array_list_entry.get("1.0", "end-1c")
+    if input_value == '':
+        result_field.set('Enter numbers')
 
     # list with numbers after split
     list = input_value.split(',')
@@ -106,13 +110,14 @@ def save_input():
     int_list = []
 
     # converting to int
-    for number in list:
-        int_list.append(int(number))
-
+    try:
+        for number in list:
+            int_list.append(int(number))
+    except ValueError:
+        result_field.set('Enter again more carefully! and than choose option')
     # print(int_list)
 
     list_queue.put(int_list)
-
 
 # noinspection PyInterpreter
 if __name__ == "__main__":
