@@ -3,7 +3,6 @@ from multiprocessing import Process, Queue
 from collections import deque
 
 
-
 # function witch selects the respective process
 # and calls the printing function(the printing in the result box doesnt work right now)
 def select_option(select):
@@ -17,53 +16,87 @@ def select_option(select):
     print_result()
 
 # filter odd process (test)
-def filter_odd(list_queue,result):
+def filter_odd(list_queue):
     if not list_queue.empty():
-        elem = list_queue.get()
-        print(elem[0])
-        result += elem[0]
-        print(result)
+        my_list = list_queue.get()
+        odd_numbers_list = filter(lambda it: it % 2 , my_list)
+        print(list(odd_numbers_list))
     else:
-        result = "INSERT NUMBERS"
+        print("INSERT NUMBERS")
 
 # filter primes process (test)
-def filter_primes(list_queue, result):
+def filter_primes(list_queue):
     if not list_queue.empty():
-        elem = list_queue.get()
-        print(elem[1])
-        result = elem[1]
+        my_list = list_queue.get()
+        prime_numbers_list = []
+
+        for elem in my_list:
+            if elem <= 1:
+                continue
+            if elem <= 3:
+                prime_numbers_list.append(elem)
+                continue
+
+            if elem % 2 == 0 or elem % 3 == 0:
+                continue
+
+            i = 5
+            while i * i <= elem:
+                if elem % i == 0 or elem % (i + 2) == 0:
+                    continue
+                i = i + 6
+
+            prime_numbers_list.append(elem)
+
+        print(prime_numbers_list)
+
     else:
-        result = "INSERT NUMBERS"
+        print("INSERT NUMBERS")
 
 # sum numbers process (test)
-def sum_numbers(list_queue, result):
+def sum_numbers(list_queue):
     if not list_queue.empty():
-        elem = list_queue.get()
-        print(elem[2])
-        result = elem[2]
+        my_list = list_queue.get()
+        sum = 0
+        for elem in my_list:
+            sum += elem
+
+        print(sum)
     else:
-        result = "INSERT NUMBERS"
+        print("INSERT NUMBERS")
 
 
 # the message queue used for sending the lists
 list_queue = Queue()
 
-# output in result field (not good!!, doesnt work to print from process)
-result = "asc"
-
 # declaring the processes
-process0 = Process(target=filter_odd, args=(list_queue,result))
-process1 = Process(target=filter_primes, args=(list_queue,result))
-process2 = Process(target=sum_numbers, args=(list_queue,result))
+process0 = Process(target=filter_odd, args=(list_queue,))
+process1 = Process(target=filter_primes, args=(list_queue,))
+process2 = Process(target=sum_numbers, args=(list_queue,))
 
 # function to save input and transforms the input into a list
 def save_input():
+    # input value a string with the entry
     input_value = array_list_entry.get("1.0", "end-1c")
+
+    #clear the entry box
     array_list_entry.delete('1.0',tk.END)
+
+    # list with numbers after split
     list = input_value.split(',')
 
-    list_queue.put(list)
-    # print_result()
+    # the list with integer values
+    int_list = []
+
+    # converting to int
+
+    for number in list:
+        int_list.append(int(number))
+
+    print(int_list)
+
+    list_queue.put(int_list)
+
 
 # function which prints in result field
 def print_result():

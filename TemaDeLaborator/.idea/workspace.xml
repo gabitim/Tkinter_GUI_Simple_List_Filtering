@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585754010818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="big problem: cannot start process twice!, neither terminate it&#10;works to clear the entry text box after get list&#10;works to use the queue and print to the console&#10;NOT yet print in the result box">
+      <created>1585761057264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585761057264</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -164,7 +171,8 @@
     <MESSAGE value="can a save input from entry field &#10;and print it in console" />
     <MESSAGE value="can a save input from entry field &#10;and print it in the result field&#10;&#10;yeyyy. Lots of work ahead. &#10;Git rocks" />
     <MESSAGE value="Process initialization; Message Queue test;&#10;Read from entry in a function, print to console&#10;from another function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Process initialization; Message Queue test;&#10;Read from entry in a function, print to console&#10;from another function" />
+    <MESSAGE value="big problem: cannot start process twice!, neither terminate it&#10;works to clear the entry text box after get list&#10;works to use the queue and print to the console&#10;NOT yet print in the result box" />
+    <option name="LAST_COMMIT_MESSAGE" value="big problem: cannot start process twice!, neither terminate it&#10;works to clear the entry text box after get list&#10;works to use the queue and print to the console&#10;NOT yet print in the result box" />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="26" key="#BasicListFiltersTkinterGUI" timestamp="1585688539546">
@@ -183,46 +191,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="73" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1585516788242" />
-    <state x="646" y="0" key="CommitChangelistDialog2" timestamp="1585754009959">
+    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1585761056058">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="646" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585754009959" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1585760882426">
+    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585761056058" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1585774893650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585760882426" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1585760882426">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585774893650" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1585774893650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585760882426" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1585760882425">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585774893650" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1585774893650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585760882425" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1585760882426">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585774893650" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1585774893650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585760882426" />
-    <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1585760138189">
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585774893650" />
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1585774644526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585760138189" />
-    <state width="1492" height="261" key="GridCell.Tab.1.center" timestamp="1585760138188">
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585774644526" />
+    <state width="1492" height="261" key="GridCell.Tab.1.center" timestamp="1585774644526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585760138188" />
-    <state width="1492" height="261" key="GridCell.Tab.1.left" timestamp="1585760138188">
+    <state width="1492" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585774644526" />
+    <state width="1492" height="261" key="GridCell.Tab.1.left" timestamp="1585774644526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585760138188" />
-    <state width="1492" height="261" key="GridCell.Tab.1.right" timestamp="1585760138188">
+    <state width="1492" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585774644526" />
+    <state width="1492" height="261" key="GridCell.Tab.1.right" timestamp="1585774644526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585760138188" />
+    <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585774644526" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1585688603774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585688603774" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585761061016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585761061016" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585688456449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -231,5 +243,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585760730754" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BasicListFiltersTkinterGUI.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
