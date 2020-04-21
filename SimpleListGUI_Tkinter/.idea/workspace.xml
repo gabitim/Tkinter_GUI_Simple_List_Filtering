@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a76fe78c-0a34-44b8-b21c-e6d1989f6c26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZornUyApWifhFFiuQQ1fADWOEw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.BasicListFiltersTkinterGUI">
+    <configuration name="BasicListFiltersTkinterGUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TemaDeLaborator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\facultate\AN 2 SEM 2\PP\Lab6\oop_python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicListFiltersTkinterGUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exemplul1_Cozi_Mesaje" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TemaDeLaborator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\facultate\AN 2 SEM 2\PP\Lab6\oop_python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Exemple" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Exemple/Exemplul1_Cozi_Mesaje.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TemaDeLaborator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Lab1/Documents/py-calc" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Lab1/Documents/py-calc/calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.BasicListFiltersTkinterGUI" />
+        <item itemvalue="Python.Exemplul1_Cozi_Mesaje" />
+        <item itemvalue="Python.calculator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a76fe78c-0a34-44b8-b21c-e6d1989f6c26" name="Default Changelist" comment="" />
+      <created>1585516454180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585516454180</updated>
+    </task>
+    <task id="LOCAL-00001" summary="can a save input from entry field &#10;and print it in console">
+      <created>1585689951903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585689951903</updated>
+    </task>
+    <task id="LOCAL-00002" summary="can a save input from entry field &#10;and print it in the result field&#10;&#10;yeyyy. Lots of work ahead. &#10;Git rocks">
+      <created>1585690513005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585690513005</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Process initialization; Message Queue test;&#10;Read from entry in a function, print to console&#10;from another function">
+      <created>1585754010818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585754010818</updated>
+    </task>
+    <task id="LOCAL-00004" summary="big problem: cannot start process twice!, neither terminate it&#10;works to clear the entry text box after get list&#10;works to use the queue and print to the console&#10;NOT yet print in the result box">
+      <created>1585761057264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585761057264</updated>
+    </task>
+    <task id="LOCAL-00005" summary="filter and sum functions done &#10;printing the output to console;&#10;cant use process twice error NOT fixed">
+      <created>1585775096374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585775096374</updated>
+    </task>
+    <task id="LOCAL-00006" summary="FINALLY can print in the result box!! &#10;still use process twice error NOT fixed">
+      <created>1585780192864</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585780192864</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="can a save input from entry field &#10;and print it in console" />
+    <MESSAGE value="can a save input from entry field &#10;and print it in the result field&#10;&#10;yeyyy. Lots of work ahead. &#10;Git rocks" />
+    <MESSAGE value="Process initialization; Message Queue test;&#10;Read from entry in a function, print to console&#10;from another function" />
+    <MESSAGE value="big problem: cannot start process twice!, neither terminate it&#10;works to clear the entry text box after get list&#10;works to use the queue and print to the console&#10;NOT yet print in the result box" />
+    <MESSAGE value="filter and sum functions done &#10;printing the output to console;&#10;cant use process twice error NOT fixed" />
+    <MESSAGE value="FINALLY can print in the result box!! &#10;still use process twice error NOT fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINALLY can print in the result box!! &#10;still use process twice error NOT fixed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="26" key="#BasicListFiltersTkinterGUI" timestamp="1585688539546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="26" key="#BasicListFiltersTkinterGUI/0.0.1536.824@0.0.1536.824" timestamp="1585688539546" />
+    <state x="507" y="26" key="#Exemplul1_Cozi_Mesaje" timestamp="1585747895457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="26" key="#Exemplul1_Cozi_Mesaje/0.0.1536.824@0.0.1536.824" timestamp="1585747895457" />
+    <state x="361" y="70" key="#Notifications" timestamp="1585755712863">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1585755712863" />
+    <state x="0" y="73" key="#Plugins" timestamp="1585516788242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="73" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1585516788242" />
+    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1585780191055">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585780191055" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1585782437436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585782437436" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1585782437436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585782437436" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1585782437436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585782437436" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1585782437436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585782437436" />
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1585782399139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585782399139" />
+    <state width="1492" height="261" key="GridCell.Tab.1.center" timestamp="1585782399139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585782399139" />
+    <state width="1492" height="261" key="GridCell.Tab.1.left" timestamp="1585782399139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585782399139" />
+    <state width="1492" height="261" key="GridCell.Tab.1.right" timestamp="1585782399139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585782399139" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1585688603774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585688603774" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585780203867">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585780203867" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585688456449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585688456449" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585779630923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585779630923" />
+  </component>
+</project>
